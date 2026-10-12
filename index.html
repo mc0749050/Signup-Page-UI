@@ -1,11 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- form section -->
+      <div class="left">
+        <h1>Get Started Now</h1>
+        <div class="form">
+          <div class="form-input">
+            <label class="input-label" for="name">Name</label>
+            <div class="inner-input">
+              <input
+                class="input-box"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+              />
+              <i class="fa-regular fa-user"></i>
+            </div>
+          </div>
+          <div class="form-input">
+            <label class="input-label" for="email">Email address</label>
+            <div class="inner-input">
+              <input
+                class="input-box"
+                type="email"
+                id="email"
+                placeholder="Enter you email"
+              />
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+          </div>
+          <div class="form-input">
+            <label class="input-label" for="password">Password</label>
+            <div class="inner-input">
+              <input
+                class="input-box"
+                type="password"
+                id="password"
+                placeholder="Name"
+              />
+              <i class="fa-solid fa-lock"></i>
+            </div>
+          </div>
+
+          <div class="check-box">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">
+              I agree to the <span>terms & policy</span>
+            </label>
+          </div>
+        </div>
+
+        <button class="signup-btn">Signup</button>
+
+        <div class="underline">
+            <div class="line"></div>
+            <span>Or</span>
+            <div class="line"></div>
+        </div>
+
+        <div class="other-login">
+            <button class="btn"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+            <button class="btn"><i class="fa-brands fa-apple"></i> Sign in with Apple</button>
+        </div>
+
+        <p class="p-tag">Have an account? <span>Sign in</span></p>
+      </div>
+
+      <!-- image side -->
+      <div class="right"></div>
+    </div>
+  </body>
 </html>
