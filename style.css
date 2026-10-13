@@ -121,6 +121,7 @@ body{
     font-size: 1.2rem;
     font-weight: 500;
     border-radius: 15px;
+    color: white;
 }
 
 .signup-btn:hover{
